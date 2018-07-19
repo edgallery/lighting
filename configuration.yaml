@@ -41,8 +41,8 @@ updater:
 discovery:
   ignore:
     - sonos
-
-# Allows you to issue voice commands from the frontend in enabled browsers
+    - axis
+ Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
 
 # Enables support for tracking state changes over time
@@ -71,3 +71,7 @@ cloud:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+tradfri:
+  host: 192.168.88.2
+  
