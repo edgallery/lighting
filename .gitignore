@@ -1,5 +1,6 @@
 *
 !*.yaml
+!readme.md
 !scenes
 !.gitignore
 secrets.yaml
